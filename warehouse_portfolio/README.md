@@ -20,7 +20,7 @@ The database consists of three core tables:
 2. `orders`: Manages customer orders and fulfillment status.
 3. `warehouse_staff`: Tracks personnel and their assigned shifts.
 
-![ER Diagram](Outputs/ER%20Diagram.png)
+![ER Diagram](ER%20Diagram.png)
 
 ---
 
@@ -33,7 +33,7 @@ Below are the analytical queries I developed to optimize warehouse operations. E
 
 | SQL Query Logic | Query Result |
 | :---: | :---: |
-| ![Low Stock Report Code](Outputs/Low%20stock%20report.png) | ![Low Stock Report Result](Outputs/Low_stock_result.png) |
+| ![Low Stock Report Code](Outputs/Low%20stock%20report.PNG) | ![Low Stock Report Result](Outputs/Low_stock_result.png) |
 
 ---
 ### Shift Performance
@@ -41,7 +41,7 @@ Below are the analytical queries I developed to optimize warehouse operations. E
 
 | SQL Query Logic | Query Result |
 | :---: | :---: |
-| ![Shift Performance Code](Outputs/Most_dispatched_orders.png) | ![Shift Performance Result](Outputs/Most_dispatched_orders_result.png) |
+| ![Shift Performance Code](Outputs/Most_dispatched_orders.PNG) | ![Shift Performance Result](Outputs/Most_dispatched_orders_result.png) |
 
 ---
 ### Order Fulfillment Status
@@ -49,7 +49,7 @@ Below are the analytical queries I developed to optimize warehouse operations. E
 
 | SQL Query Logic | Query Result |
 | :---: | :---: |
-| ![Order Fulfillment Status Code](Outputs/Order%20Fulfillment.png) | ![Order Fulfillment Status Result](Outputs/order_fulfillment_result.png) |
+| ![Order Fulfillment Status Code](Outputs/Order%20Fulfillment.PNG) | ![Order Fulfillment Status Result](Outputs/order_fulfillment_result.png) |
 
 ---
 ### Inventory Value Analysis
@@ -57,7 +57,15 @@ Below are the analytical queries I developed to optimize warehouse operations. E
 
 | SQL Query Logic | Query Result |
 | :---: | :---: |
-| ![Inventory Value Analysis Code](Outputs/Total_stock_value_code.png) | ![Inventory Value Analysis Result](Outputs/Total_stock_value_result.png) |
+| ![Inventory Value Analysis Code](Outputs/Total_stock_value_code.PNG) | ![Inventory Value Analysis Result](Outputs/Total_stock_value_result.png) |
+
+---
+### Staff Assignment for Critical Inventory
+**Objective:** Identifies which warehouse staff members are currently picking orders for items that have reached critical low-stock levels (below reorder point).
+
+| SQL Query Logic | Query Result |
+| :---: | :---: |
+| ![Picked Orders Code](Outputs/Picked_orders_for_low_stock.PNG) | ![Picked Orders Result](Outputs/Picked_orders_for_low_stock_result.png) |
 
 ---
 
